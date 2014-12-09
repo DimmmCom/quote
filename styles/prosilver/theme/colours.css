@@ -1,0 +1,75 @@
+  /* Quote on CSS3 */
+    blockquote {
+       font-size: 0.95em;
+       margin: 0em 1px 0 5px;
+       overflow: hidden;
+       color: #797971;
+       font-family: georgia;
+       font-style: italic;
+       min-height: 35px;
+       padding: 20px;
+       background: none;
+       border: 0;
+    }
+    blockquote div {
+       margin-top: -5px;
+       border: 1px solid #0076B4;
+       background: url("/ext/dimmmcom/quote/styles/prosilver/theme/images/spback.png") bottom left repeat-x #FFFFFF;
+       padding: 20px 20px 5px 30px;
+       position: relative;
+    }
+    blockquote div:before {
+       content: '';
+       position: absolute;
+       background: url("/ext/dimmmcom/quote/styles/prosilver/theme/images/openq.png") top left no-repeat transparent;
+       width: 16px;
+       height: 16px;
+       top: 23px;
+       left: 5px;
+    }
+    blockquote div:after {
+       content: '';
+       position: absolute;
+       background: url("/ext/dimmmcom/quote/styles/prosilver/theme/images/closeq.png") top left no-repeat transparent;
+       width: 16px;
+       height: 16px;
+       right: 5px;
+       bottom: 5px;
+    }
+    blockquote div cite {
+       font-style: normal;
+       font-weight: bold;
+       display: block;
+       font-size: 0.9em;
+       color: #fff;
+       background: url("/ext/dimmmcom/quote/styles/prosilver/theme/images/qhm.png") top left repeat-x transparent;
+       height: 32px;
+       line-height: 24px;
+       position: absolute;
+       top: -14px;
+       text-shadow: #000000 1px 1px;
+       left: -1px;
+    }
+    blockquote div cite:before {
+       content: '';
+       position: absolute;
+       background: url("/ext/dimmmcom/quote/styles/prosilver/theme/images/qho.png") no-repeat 0px 0px transparent;
+       width: 31px;
+       height: 39px;
+       left: -31px;
+       top: 0px;
+    }
+    blockquote div cite:after {
+       content: '';
+       background: url("/ext/dimmmcom/quote/styles/prosilver/theme/images/qhc.png") no-repeat 0px 0px transparent;
+       position: absolute;
+       right: -10px;
+       width: 10px;
+       height: 32px;
+    }
+    blockquote.uncited div {
+       padding: 10px 20px 5px 30px;
+    }
+    blockquote.uncited div:before {
+       top: 15px;
+    }

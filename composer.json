@@ -1,0 +1,25 @@
+{
+    "name": "dimmmcom/quote",
+    "type": "phpbb-extension",
+    "description": "",
+    "homepage": "http://cavalers.ru",
+    "version": "0.0.1",
+    "time": "2014-11-09",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "DimmmCom",
+            "homepage": "http://cavalers.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Quote",
+        "soft-require": {
+		    "phpbb/phpbb": "3.1.*@dev"
+        }
+    }
+}
