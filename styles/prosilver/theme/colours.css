@@ -7,7 +7,7 @@
        font-family: georgia;
        font-style: italic;
        min-height: 35px;
-       padding: 20px;
+       padding: 25px 20px 0;
        background: none;
        border: 0;
     }
@@ -17,6 +17,7 @@
        background: url("./images/spback.png") bottom left repeat-x #FFFFFF;
        padding: 20px 20px 5px 30px;
        position: relative;
+	   border-radius: 7px;
     }
     blockquote div:before {
        content: '';
