@@ -11,7 +11,7 @@
        background: none;
        border: 0;
     }
-    blockquote div {
+    blockquote > div {
        margin-top: -5px;
        border: 1px solid #0076B4;
        background: url("./images/spback.png") bottom left repeat-x #FFFFFF;
@@ -19,7 +19,7 @@
        position: relative;
 	   border-radius: 7px;
     }
-    blockquote div:before {
+    blockquote > div:before {
        content: '';
        position: absolute;
        background: url("./images/openq.png") top left no-repeat transparent;
@@ -28,7 +28,7 @@
        top: 23px;
        left: 5px;
     }
-    blockquote div:after {
+    blockquote > div:after {
        content: '';
        position: absolute;
        background: url("./images/closeq.png") top left no-repeat transparent;
@@ -37,7 +37,7 @@
        right: 5px;
        bottom: 5px;
     }
-    blockquote div cite {
+    blockquote > div cite {
        font-style: normal;
        font-weight: bold;
        display: block;
@@ -51,7 +51,7 @@
        text-shadow: #000000 1px 1px;
        left: -1px;
     }
-    blockquote div cite:before {
+    blockquote > div cite:before {
        content: '';
        position: absolute;
        background: url("./images/qho.png") no-repeat 0px 0px transparent;
@@ -60,7 +60,7 @@
        left: -31px;
        top: 0px;
     }
-    blockquote div cite:after {
+    blockquote > div cite:after {
        content: '';
        background: url("./images/qhc.png") no-repeat 0px 0px transparent;
        position: absolute;
@@ -68,9 +68,9 @@
        width: 10px;
        height: 32px;
     }
-    blockquote.uncited div {
+    blockquote.uncited > div {
        padding: 10px 20px 5px 30px;
     }
-    blockquote.uncited div:before {
+    blockquote.uncited > div:before {
        top: 15px;
     }
